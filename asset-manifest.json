@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/social-card-goit/static/css/main.e267742c.css",
-    "main.js": "/social-card-goit/static/js/main.bba8f541.js",
+    "main.js": "/social-card-goit/static/js/main.f6397f7f.js",
     "static/media/background-picture.png": "/social-card-goit/static/media/background-picture.032662a2a907475127d7.png",
     "static/media/Hansel.png": "/social-card-goit/static/media/Hansel.7c9062b41b07d74bbcec.png",
     "index.html": "/social-card-goit/index.html",
     "main.e267742c.css.map": "/social-card-goit/static/css/main.e267742c.css.map",
-    "main.bba8f541.js.map": "/social-card-goit/static/js/main.bba8f541.js.map"
+    "main.f6397f7f.js.map": "/social-card-goit/static/js/main.f6397f7f.js.map"
   },
   "entrypoints": [
     "static/css/main.e267742c.css",
-    "static/js/main.bba8f541.js"
+    "static/js/main.f6397f7f.js"
   ]
 }
