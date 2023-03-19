@@ -16,7 +16,6 @@ import avatar from '../../images/Hansel.png';
 
 const getFollowers = () => {
   const val = localStorage.getItem('followers');
-  console.log(val);
   return val ? parseInt(val) : 0;
 };
 
