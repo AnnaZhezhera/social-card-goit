@@ -61,7 +61,7 @@ export const Card = () => {
           <form>
             {isFollowing ? (
               <Btn htmlFor="follow" style={{ backgroundColor: ' #5cd3a8' }}>
-                Unfollow
+                Following
               </Btn>
             ) : (
               <Btn htmlFor="follow">Follow </Btn>
