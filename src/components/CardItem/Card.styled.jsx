@@ -1,9 +1,15 @@
 import styled from 'styled-components';
 import backgroundImg from '../../images/background-picture.png';
 
-export const CardWrapp = styled.ul`
+export const CardWrapp = styled.li`
   width: 380px;
   height: 460px;
+  list-style: none;
+  padding-right: 20px;
+
+  &:last-child {
+    padding-right: 0;
+  }
 `;
 
 export const CardInner = styled.div`
