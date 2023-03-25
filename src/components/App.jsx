@@ -1,4 +1,4 @@
-import { Card } from './Card/Card';
+import { CardList } from './CardList/CardList';
 
 export const App = () => {
   return (
@@ -12,7 +12,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Card />
+      <CardList />
     </div>
   );
 };

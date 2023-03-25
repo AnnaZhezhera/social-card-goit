@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import backgroundImg from '../../images/background-picture.png';
 
-export const CardWrapp = styled.div`
+export const CardWrapp = styled.ul`
   width: 380px;
   height: 460px;
 `;
@@ -91,26 +91,28 @@ export const TextFollowers = styled.p`
   font-size: 20px;
 `;
 
-export const Btn = styled.label`
+export const Btn = styled.button`
   display: inline-block;
   width: 196px;
-  /* height: 50px;  */
-  padding: 14px 0;
   font-size: 18px;
   font-weight: 600;
+  text-transform: uppercase;
+  padding: 14px 0;
   color: rgba(55, 55, 55, 1);
-  background-color: rgba(235, 216, 255, 1);
+
   margin-top: 26px;
 
   box-shadow: 0 3.44px 3.44px 0 rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 10.31px;
   cursor: pointer;
-  &:hover {
+
+  ${({ isactive }) =>
+    isactive
+      ? ` background-color: #5CD3A8;   &:hover {
+    background-color:  #52c79c;
+  }`
+      : ` background-color: rgba(235, 216, 255, 1);   &:hover {
     background-color: #e0c8f9;
-  }
-  &:checked {
-    background-color: #5cd3a8;
-  }
-  /* background-color: #5cd3a8; */
+  }`}
 `;
